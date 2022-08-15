@@ -1,8 +1,8 @@
 site_name: "Hazla Corta: Como migrar de Google"
-site_description: Guías para migrar fuera de Google, hechas por Open Source eUC .
+site_description: Guías para migrar fuera de Google, hechas por Open Source eUC en colaboración con la FEUC.
 copyright: |
   Guías para migrar fuera de Google.
-  Mantenido por <a href="https://github.com/open-source-uc/bdd/graphs/contributors" target="_blank" rel="noopener">colaboradores</a>
+  Mantenido por <a href="https://github.com/open-source-uc/hazla-corta/graphs/contributors" target="_blank" rel="noopener">colaboradores</a>
   en <a href="https://github.com/open-source-uc" target="_blank" rel="noopener">Open Source UC</a> en colaboración con la FEUC
 
 repo_url: https://github.com/open-source-uc/hazla-corta-drive
@@ -39,6 +39,7 @@ extra_css:
 
 theme:
   name: material
+  custom_dir: overrides
   language: es
   logo: assets/osuc-feuc.svg
   favicon: assets/osuc-favicon.svg
