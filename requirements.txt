@@ -20,7 +20,7 @@ gitpython==3.1.27; python_version >= "3.7" \
     --hash=sha256:5b68b000463593e05ff2b261acff0ff0972df8ab1b70d3cdbd41b546c8b8fc3d \
     --hash=sha256:1c885ce809e8ba2d88a29befeb385fcea06338d3640712b59ca623c220bb5704
 identify==2.5.3; python_version >= "3.7"
-importlib-metadata==4.12.0; python_version >= "3.7"
+importlib-metadata==4.12.0; python_version < "3.8" and python_version >= "3.7"
 jinja2==3.1.2; python_version >= "3.7" \
     --hash=sha256:6088930bfe239f0e6710546ab9c19c9ef35e29792895fed6e6e31a023a182a61 \
     --hash=sha256:31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852
@@ -142,6 +142,7 @@ smmap==5.0.0; python_version >= "3.7" \
 toml==0.10.2; python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.3.0" and python_version >= "3.7" \
     --hash=sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b \
     --hash=sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f
+typing-extensions==4.3.0; python_version < "3.8" and python_version >= "3.7"
 virtualenv==20.16.3; python_version >= "3.7"
 watchdog==2.1.9; python_version >= "3.7" \
     --hash=sha256:a735a990a1095f75ca4f36ea2ef2752c99e6ee997c46b0de507ba40a09bf7330 \
@@ -169,4 +170,4 @@ watchdog==2.1.9; python_version >= "3.7" \
     --hash=sha256:7a833211f49143c3d336729b0020ffd1274078e94b0ae42e22f596999f50279c \
     --hash=sha256:ad576a565260d8f99d97f2e64b0f97a48228317095908568a9d5c786c829d428 \
     --hash=sha256:43ce20ebb36a51f21fa376f76d1d4692452b2527ccd601950d69ed36b9e21609
-zipp==3.8.1; python_version >= "3.7"
+zipp==3.8.1; python_version < "3.8" and python_version >= "3.7"

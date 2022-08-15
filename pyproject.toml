@@ -5,7 +5,7 @@ description = ""
 authors = ["Benjamín Vicente <benjavicente@uc.cl>"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.7"
 mkdocs-material = "^8.4.0"
 mkdocs-git-revision-date-localized-plugin = "^1.1.0"
 pre-commit = "^2.20.0"
