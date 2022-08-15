@@ -1,13 +1,12 @@
 [data-md-color-scheme="default"] {
-    --md-primary-fg-color:        #27803B;
+    --md-primary-fg-color: #27803B;
 }
 
 
 [data-md-color-scheme="slate"] {
-    --md-primary-fg-color:        #28813b;
+    --md-primary-fg-color: #28813b;
     --md-hue: 240;
 }
-
 
 .md-typeset h1, .md-typeset h2 {
     font-weight: 500;
