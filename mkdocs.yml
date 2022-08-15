@@ -10,13 +10,21 @@ edit_uri: edit/main/docs/
 
 nav:
   - Inicio: index.md
-  - Guía rápida: guia-rapida.md
-  - Por área:
+  - Guía rápida:
+      - Inicio: guia-rapida/index.md
+  - Información sobre el cambio: informacion-sobre-el-cambio.md
+  - Guías por área:
       - Principales:
-          - por-area/drive.md
-          - por-area/email.md
+          - Drive: por-area/drive.md
+          - Email: por-area/email.md
+          - Calendario: por-area/calendario.md
+          - Contactos: por-area/contactos.md
+      - Software asociado:
+          - Cuentas Asociadas: por-area/cuentas-asociadas.md
+          - Datos del Navegador: por-area/daros-navegador.md
       - Otros:
-          - por-area/notas.md
+          - Notas (keep): por-area/notas.md
+          - Ubicaciones (maps): por-area/ubicaciones.md
   - Como contribuir: contributing.md
 
 markdown_extensions:
@@ -49,7 +57,6 @@ theme:
     - navigation.instant
     - navigation.indexes
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
     - search.highlight
   palette:
