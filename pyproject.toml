@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hazla-corta-drive"
+version = "0.1.0"
+description = ""
+authors = ["Benjamín Vicente <benjavicente@uc.cl>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs-material = "^8.4.0"
+mkdocs-git-revision-date-localized-plugin = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
