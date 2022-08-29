@@ -12,17 +12,20 @@ nav:
   - Inicio: index.md
   - Guía rápida:
       - Inicio: guia-rapida/index.md
+      - Drive a OneDrive: guia-rapida/drive-a-onedrive.md
+      - GMail a Outlook: guia-rapida/gmail-a-outlook.md
   - Información sobre el cambio: informacion-sobre-el-cambio.md
   - Guías por área:
       - Principales:
-          - Drive: por-area/drive.md
-          - Email: por-area/email.md
+          - Drive: por-area/drive-personal.md
           - Calendario: por-area/calendario.md
+          - Email: por-area/email.md
           - Contactos: por-area/contactos.md
       - Software asociado:
           - Cuentas Asociadas: por-area/cuentas-asociadas.md
-          - Datos del Navegador: por-area/daros-navegador.md
+          - Datos del Navegador: por-area/datos-navegador.md
       - Otros:
+          - Unidades Compartidas: por-area/drive-unidades-compartidas.md
           - Notas (keep): por-area/notas.md
           - Ubicaciones (maps): por-area/ubicaciones.md
   - Como contribuir: contributing.md
@@ -33,6 +36,7 @@ markdown_extensions:
   - footnotes
   - pymdownx.superfences
   - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
