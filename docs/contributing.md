@@ -55,6 +55,9 @@ poetry install
 
 # Además, instala los git hooks con
 pre-commit install
+
+# Luego puedes entrar al entorno virtual con
+poetry shell
 ```
 
 Puedes correr el servidor de pruebas con:
