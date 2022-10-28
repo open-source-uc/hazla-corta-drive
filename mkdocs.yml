@@ -12,6 +12,7 @@ nav:
   - Inicio: index.md
   - Guía rápida:
       - Inicio: guia-rapida/index.md
+      - Google Takeout: guia-rapida/google-takeout.md
       - Drive a OneDrive: guia-rapida/drive-a-onedrive.md
       - GMail a Outlook: guia-rapida/gmail-a-outlook.md
   - Información sobre el cambio: informacion-sobre-el-cambio.md
@@ -35,6 +36,10 @@ markdown_extensions:
   - abbr
   - footnotes
   - pymdownx.superfences
+  - def_list
+  - attr_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:

@@ -11,3 +11,14 @@
 .md-typeset h1, .md-typeset h2 {
     font-weight: 500;
 }
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
